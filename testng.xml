@@ -3,40 +3,40 @@
 <suite name="Calculator_demo">
 
   <test name = "Test_Addition">
-   	<parameter name= "Number1" value ="457"/>
-	<parameter name= "Number2" value ="342"/>
+   	<parameter name= "Number1" value ="-234234"/>
+	<parameter name= "Number2" value ="345345"/>
    	<parameter name= "Operator" value ="Addition"/>
-	<parameter name= "Expected" value ="799"/>
+	<parameter name= "Expected" value ="111111"/>
 	<classes>
 		<class name= "NormalCalculator"/>
     </classes>
 </test> 
 
  <test name = "Test_Subtraction">
-   	<parameter name= "Number1" value ="457"/>
-	<parameter name= "Number2" value ="342"/>
+   	<parameter name= "Number1" value ="234823"/>
+	<parameter name= "Number2" value ="-23094823"/>
    	<parameter name= "Operator" value ="Subtraction"/>
-	<parameter name= "Expected" value ="115"/>
+	<parameter name= "Expected" value ="23329646"/>
 	<classes>
 		<class name= "NormalCalculator"/>
     </classes>
 </test> 
 
  <test name = "Test_Multiplication">
-   	<parameter name= "Number1" value ="15"/>
-	<parameter name= "Number2" value ="10"/>
+   	<parameter name= "Number1" value ="423"/>
+	<parameter name= "Number2" value ="525"/>
    	<parameter name= "Operator" value ="Multiplication"/>
-	<parameter name= "Expected" value ="150"/>
+	<parameter name= "Expected" value ="222075"/>
 	<classes>
 		<class name= "NormalCalculator"/>
     </classes>
 </test> 
 
  <test name = "Test_Division">
-   	<parameter name= "Number1" value ="15"/>
-	<parameter name= "Number2" value ="10"/>
+   	<parameter name= "Number1" value ="4000"/>
+	<parameter name= "Number2" value ="200"/>
    	<parameter name= "Operator" value ="Division"/>
-	<parameter name= "Expected" value ="1.5"/>
+	<parameter name= "Expected" value ="20"/>
 	<classes>
 		<class name= "NormalCalculator"/>
     </classes>
