@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-27T18:55:16 IST" name="Selenium_demo" finished-at="2022-06-27T18:57:14 IST" duration-ms="118429">
+    <groups>
+    </groups>
+    <test started-at="2022-06-27T18:55:16 IST" name="Test_Addition" finished-at="2022-06-27T18:55:50 IST" duration-ms="34076">
+      <class name="NormalCalculator">
+        <test-method is-config="true" signature="browserInvocation()[pri:0, instance:NormalCalculator@3ba987b8]" started-at="2022-06-27T18:55:16 IST" name="browserInvocation" finished-at="2022-06-27T18:55:41 IST" duration-ms="25353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvocation -->
+        <test-method signature="calculations(int,int,java.lang.String,float)[pri:0, instance:NormalCalculator@3ba987b8]" started-at="2022-06-27T18:55:42 IST" name="calculations" finished-at="2022-06-27T18:55:43 IST" duration-ms="1006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[457]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[342]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Addition]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[799.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculations -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:NormalCalculator@3ba987b8]" started-at="2022-06-27T18:55:43 IST" name="closeBrowser" finished-at="2022-06-27T18:55:50 IST" duration-ms="7071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- NormalCalculator -->
+    </test> <!-- Test_Addition -->
+    <test started-at="2022-06-27T18:55:51 IST" name="Test_Subtraction" finished-at="2022-06-27T18:56:16 IST" duration-ms="25102">
+      <class name="NormalCalculator">
+        <test-method is-config="true" signature="browserInvocation()[pri:0, instance:NormalCalculator@6d60fe40]" started-at="2022-06-27T18:55:51 IST" name="browserInvocation" finished-at="2022-06-27T18:56:10 IST" duration-ms="18908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvocation -->
+        <test-method signature="calculations(int,int,java.lang.String,float)[pri:0, instance:NormalCalculator@6d60fe40]" started-at="2022-06-27T18:56:10 IST" name="calculations" finished-at="2022-06-27T18:56:10 IST" duration-ms="612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[457]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[342]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Subtraction]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[115.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculations -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:NormalCalculator@6d60fe40]" started-at="2022-06-27T18:56:10 IST" name="closeBrowser" finished-at="2022-06-27T18:56:16 IST" duration-ms="5566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- NormalCalculator -->
+    </test> <!-- Test_Subtraction -->
+    <test started-at="2022-06-27T18:56:16 IST" name="Test_Multiplication" finished-at="2022-06-27T18:56:43 IST" duration-ms="27157">
+      <class name="NormalCalculator">
+        <test-method is-config="true" signature="browserInvocation()[pri:0, instance:NormalCalculator@514646ef]" started-at="2022-06-27T18:56:16 IST" name="browserInvocation" finished-at="2022-06-27T18:56:37 IST" duration-ms="21531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvocation -->
+        <test-method signature="calculations(int,int,java.lang.String,float)[pri:0, instance:NormalCalculator@514646ef]" started-at="2022-06-27T18:56:37 IST" name="calculations" finished-at="2022-06-27T18:56:38 IST" duration-ms="414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Multiplication]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[150.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculations -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:NormalCalculator@514646ef]" started-at="2022-06-27T18:56:38 IST" name="closeBrowser" finished-at="2022-06-27T18:56:43 IST" duration-ms="5204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- NormalCalculator -->
+    </test> <!-- Test_Multiplication -->
+    <test started-at="2022-06-27T18:56:43 IST" name="Test_Division" finished-at="2022-06-27T18:57:14 IST" duration-ms="31189">
+      <class name="NormalCalculator">
+        <test-method is-config="true" signature="browserInvocation()[pri:0, instance:NormalCalculator@35841320]" started-at="2022-06-27T18:56:43 IST" name="browserInvocation" finished-at="2022-06-27T18:57:08 IST" duration-ms="25192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvocation -->
+        <test-method signature="calculations(int,int,java.lang.String,float)[pri:0, instance:NormalCalculator@35841320]" started-at="2022-06-27T18:57:08 IST" name="calculations" finished-at="2022-06-27T18:57:09 IST" duration-ms="658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Division]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculations -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:NormalCalculator@35841320]" started-at="2022-06-27T18:57:09 IST" name="closeBrowser" finished-at="2022-06-27T18:57:14 IST" duration-ms="5331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- NormalCalculator -->
+    </test> <!-- Test_Division -->
+  </suite> <!-- Selenium_demo -->
+</testng-results>

@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Calculator_demo">
+
+  <test name = "Test_Addition">
+   	<parameter name= "Number1" value ="457"/>
+	<parameter name= "Number2" value ="342"/>
+   	<parameter name= "Operator" value ="Addition"/>
+	<parameter name= "Expected" value ="799"/>
+	<classes>
+		<class name= "NormalCalculator"/>
+    </classes>
+</test> 
+
+ <test name = "Test_Subtraction">
+   	<parameter name= "Number1" value ="457"/>
+	<parameter name= "Number2" value ="342"/>
+   	<parameter name= "Operator" value ="Subtraction"/>
+	<parameter name= "Expected" value ="115"/>
+	<classes>
+		<class name= "NormalCalculator"/>
+    </classes>
+</test> 
+
+ <test name = "Test_Multiplication">
+   	<parameter name= "Number1" value ="15"/>
+	<parameter name= "Number2" value ="10"/>
+   	<parameter name= "Operator" value ="Multiplication"/>
+	<parameter name= "Expected" value ="150"/>
+	<classes>
+		<class name= "NormalCalculator"/>
+    </classes>
+</test> 
+
+ <test name = "Test_Division">
+   	<parameter name= "Number1" value ="15"/>
+	<parameter name= "Number2" value ="10"/>
+   	<parameter name= "Operator" value ="Division"/>
+	<parameter name= "Expected" value ="1.5"/>
+	<classes>
+		<class name= "NormalCalculator"/>
+    </classes>
+</test>
+
+
+
+
+</suite> 
+
